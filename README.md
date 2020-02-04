@@ -1,7 +1,7 @@
 # code-obfuscator
 
 
-###Common info
+### Common info
 
 
 This project aims to provide ability for obfuscating java source code. 
