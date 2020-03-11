@@ -1,10 +1,19 @@
-# code-obfuscator
+# code-obfuscator for java
 
 
-### Common info
+### General info
 
 
 This project aims to provide ability for obfuscating java source code. 
+
+The current realization is very limited - it process only:
+ 
+ * local variables
+ * method and constructor arguments
+ * private member names
+ * private method names
+
+[javaparser](https://github.com/javaparser/javaparser) is used to build abstract syntax tree
 
 It could be useful if you have to transfer your source codes to unreliable partner.
 
